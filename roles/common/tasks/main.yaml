@@ -3,8 +3,12 @@
     msg: "Hi from msg-1"
 
 - name: msg-2
-  debuggg: 
+  debug: 
     msg: "Hi from msg-2"
+
+- name: change the variable
+  set_fact:
+    OS:  "Debian"
 
 - name: msg-3
   debug: 
