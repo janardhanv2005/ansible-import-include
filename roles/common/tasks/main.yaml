@@ -3,7 +3,7 @@
     msg: "Hi from msg-1"
 
 - name: msg-2
-  debug: 
+  debuggg: 
     msg: "Hi from msg-2"
 
 - name: msg-3
